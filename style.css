@@ -1,0 +1,38 @@
+h3,h6{
+				text-align: center;
+}
+
+/* Resposive css code */
+/* you can change the id and width size according to you */
+#pc{
+				display: none;
+				
+}
+#tablet{
+				display: none;
+}
+
+@media screen and (min-width: 1000px){
+				#mobile{
+							display:none ;
+				}
+				#pc{
+								display: block;
+								display: inline;
+				}
+				#tablet{
+								display: none;
+				}
+}
+@media screen and (min-width:750px) and (max-width:1000px){
+				#mobile{
+								display: none;
+								
+				}
+				#pc{
+								display: none;
+				}
+				#tablet{
+								display: inline;
+				}
+}
